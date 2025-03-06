@@ -48,6 +48,7 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pnlBoton = new Guna.UI2.WinForms.Guna2Panel();
             this.btnEliminar = new Guna.UI2.WinForms.Guna2Button();
             this.btnModificar = new Guna.UI2.WinForms.Guna2Button();
@@ -56,7 +57,6 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txtAñoVehiculo = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dtgProducto)).BeginInit();
             this.pnlBoton.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -65,27 +65,30 @@
             // lblIdProducto
             // 
             this.lblIdProducto.BackColor = System.Drawing.Color.Transparent;
-            this.lblIdProducto.Location = new System.Drawing.Point(50, 33);
+            this.lblIdProducto.Location = new System.Drawing.Point(67, 41);
+            this.lblIdProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lblIdProducto.Name = "lblIdProducto";
-            this.lblIdProducto.Size = new System.Drawing.Size(90, 15);
+            this.lblIdProducto.Size = new System.Drawing.Size(113, 18);
             this.lblIdProducto.TabIndex = 0;
             this.lblIdProducto.Text = "Placa del vehiculo";
             // 
             // lblPrecio
             // 
             this.lblPrecio.BackColor = System.Drawing.Color.Transparent;
-            this.lblPrecio.Location = new System.Drawing.Point(50, 121);
+            this.lblPrecio.Location = new System.Drawing.Point(67, 149);
+            this.lblPrecio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(33, 15);
+            this.lblPrecio.Size = new System.Drawing.Size(42, 18);
             this.lblPrecio.TabIndex = 1;
             this.lblPrecio.Text = "Precio";
             // 
             // Tipo
             // 
             this.Tipo.BackColor = System.Drawing.Color.Transparent;
-            this.Tipo.Location = new System.Drawing.Point(50, 205);
+            this.Tipo.Location = new System.Drawing.Point(67, 252);
+            this.Tipo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Tipo.Name = "Tipo";
-            this.Tipo.Size = new System.Drawing.Size(24, 15);
+            this.Tipo.Size = new System.Drawing.Size(31, 18);
             this.Tipo.TabIndex = 2;
             this.Tipo.Text = "Tipo";
             // 
@@ -115,12 +118,12 @@
             this.txtPlaca.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPlaca.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPlaca.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPlaca.Location = new System.Drawing.Point(50, 54);
-            this.txtPlaca.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPlaca.Location = new System.Drawing.Point(67, 66);
+            this.txtPlaca.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPlaca.Name = "txtPlaca";
             this.txtPlaca.PlaceholderText = "";
             this.txtPlaca.SelectedText = "";
-            this.txtPlaca.Size = new System.Drawing.Size(200, 36);
+            this.txtPlaca.Size = new System.Drawing.Size(267, 44);
             this.txtPlaca.TabIndex = 5;
             // 
             // txtPrecio
@@ -134,21 +137,21 @@
             this.txtPrecio.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPrecio.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPrecio.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPrecio.Location = new System.Drawing.Point(50, 143);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPrecio.Location = new System.Drawing.Point(67, 176);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.PlaceholderText = "";
             this.txtPrecio.SelectedText = "";
-            this.txtPrecio.Size = new System.Drawing.Size(200, 36);
+            this.txtPrecio.Size = new System.Drawing.Size(267, 44);
             this.txtPrecio.TabIndex = 6;
-            this.txtPrecio.TextChanged += new System.EventHandler(this.txtPrecio_TextChanged);
             // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(308, 33);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(411, 41);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(33, 15);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(41, 18);
             this.guna2HtmlLabel1.TabIndex = 8;
             this.guna2HtmlLabel1.Text = "Marca";
             // 
@@ -163,20 +166,21 @@
             this.txtMarca.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMarca.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMarca.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMarca.Location = new System.Drawing.Point(308, 55);
-            this.txtMarca.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtMarca.Location = new System.Drawing.Point(411, 68);
+            this.txtMarca.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.PlaceholderText = "";
             this.txtMarca.SelectedText = "";
-            this.txtMarca.Size = new System.Drawing.Size(200, 36);
+            this.txtMarca.Size = new System.Drawing.Size(267, 44);
             this.txtMarca.TabIndex = 9;
             // 
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(308, 121);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(411, 149);
+            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(38, 15);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(49, 18);
             this.guna2HtmlLabel4.TabIndex = 10;
             this.guna2HtmlLabel4.Text = "Modelo";
             // 
@@ -194,9 +198,10 @@
             "Automóvil",
             "Campero",
             "Camioneta"});
-            this.cmbTipo.Location = new System.Drawing.Point(50, 226);
+            this.cmbTipo.Location = new System.Drawing.Point(67, 278);
+            this.cmbTipo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbTipo.Name = "cmbTipo";
-            this.cmbTipo.Size = new System.Drawing.Size(200, 36);
+            this.cmbTipo.Size = new System.Drawing.Size(265, 36);
             this.cmbTipo.TabIndex = 11;
             // 
             // txtModelo
@@ -210,12 +215,12 @@
             this.txtModelo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtModelo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtModelo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtModelo.Location = new System.Drawing.Point(308, 143);
-            this.txtModelo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtModelo.Location = new System.Drawing.Point(411, 176);
+            this.txtModelo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtModelo.Name = "txtModelo";
             this.txtModelo.PlaceholderText = "";
             this.txtModelo.SelectedText = "";
-            this.txtModelo.Size = new System.Drawing.Size(200, 36);
+            this.txtModelo.Size = new System.Drawing.Size(267, 44);
             this.txtModelo.TabIndex = 12;
             // 
             // dtgProducto
@@ -250,11 +255,12 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dtgProducto.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtgProducto.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtgProducto.Location = new System.Drawing.Point(71, 285);
+            this.dtgProducto.Location = new System.Drawing.Point(95, 351);
+            this.dtgProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtgProducto.Name = "dtgProducto";
             this.dtgProducto.RowHeadersVisible = false;
             this.dtgProducto.RowHeadersWidth = 51;
-            this.dtgProducto.Size = new System.Drawing.Size(946, 181);
+            this.dtgProducto.Size = new System.Drawing.Size(1261, 223);
             this.dtgProducto.TabIndex = 13;
             this.dtgProducto.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dtgProducto.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -308,6 +314,12 @@
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
             // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Column6";
+            this.Column6.MinimumWidth = 6;
+            this.Column6.Name = "Column6";
+            // 
             // pnlBoton
             // 
             this.pnlBoton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -316,10 +328,10 @@
             this.pnlBoton.Controls.Add(this.btnGuardar);
             this.pnlBoton.Controls.Add(this.btnNuevo);
             this.pnlBoton.Controls.Add(this.guna2PictureBox1);
-            this.pnlBoton.Location = new System.Drawing.Point(616, 33);
-            this.pnlBoton.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlBoton.Location = new System.Drawing.Point(821, 41);
+            this.pnlBoton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlBoton.Name = "pnlBoton";
-            this.pnlBoton.Size = new System.Drawing.Size(370, 218);
+            this.pnlBoton.Size = new System.Drawing.Size(493, 268);
             this.pnlBoton.TabIndex = 14;
             // 
             // btnEliminar
@@ -331,10 +343,10 @@
             this.btnEliminar.FillColor = System.Drawing.Color.LavenderBlush;
             this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnEliminar.ForeColor = System.Drawing.Color.Black;
-            this.btnEliminar.Location = new System.Drawing.Point(210, 88);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEliminar.Location = new System.Drawing.Point(280, 108);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(135, 37);
+            this.btnEliminar.Size = new System.Drawing.Size(180, 46);
             this.btnEliminar.TabIndex = 3;
             this.btnEliminar.Text = "Eliminar";
             // 
@@ -347,10 +359,10 @@
             this.btnModificar.FillColor = System.Drawing.Color.Honeydew;
             this.btnModificar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnModificar.ForeColor = System.Drawing.Color.Black;
-            this.btnModificar.Location = new System.Drawing.Point(27, 88);
-            this.btnModificar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnModificar.Location = new System.Drawing.Point(36, 108);
+            this.btnModificar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(135, 37);
+            this.btnModificar.Size = new System.Drawing.Size(180, 46);
             this.btnModificar.TabIndex = 2;
             this.btnModificar.Text = "Modificar";
             // 
@@ -363,10 +375,10 @@
             this.btnGuardar.FillColor = System.Drawing.Color.Honeydew;
             this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnGuardar.ForeColor = System.Drawing.Color.Black;
-            this.btnGuardar.Location = new System.Drawing.Point(210, 36);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnGuardar.Location = new System.Drawing.Point(280, 44);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(135, 37);
+            this.btnGuardar.Size = new System.Drawing.Size(180, 46);
             this.btnGuardar.TabIndex = 1;
             this.btnGuardar.Text = "Guardar";
             // 
@@ -380,10 +392,10 @@
             this.btnNuevo.FillColor = System.Drawing.Color.Honeydew;
             this.btnNuevo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnNuevo.ForeColor = System.Drawing.Color.Black;
-            this.btnNuevo.Location = new System.Drawing.Point(27, 36);
-            this.btnNuevo.Margin = new System.Windows.Forms.Padding(2);
+            this.btnNuevo.Location = new System.Drawing.Point(36, 44);
+            this.btnNuevo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(135, 37);
+            this.btnNuevo.Size = new System.Drawing.Size(180, 46);
             this.btnNuevo.TabIndex = 0;
             this.btnNuevo.Text = "Nuevo";
             // 
@@ -394,9 +406,10 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::Presentacion.Properties.Resources.Fondo_dream_cars;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(0, -68);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, -54);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(388, 314);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(517, 356);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 15;
             this.guna2PictureBox1.TabStop = false;
@@ -412,34 +425,30 @@
             this.txtAñoVehiculo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAñoVehiculo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtAñoVehiculo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAñoVehiculo.Location = new System.Drawing.Point(308, 226);
-            this.txtAñoVehiculo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAñoVehiculo.Location = new System.Drawing.Point(411, 278);
+            this.txtAñoVehiculo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtAñoVehiculo.Name = "txtAñoVehiculo";
             this.txtAñoVehiculo.PlaceholderText = "";
             this.txtAñoVehiculo.SelectedText = "";
-            this.txtAñoVehiculo.Size = new System.Drawing.Size(200, 36);
+            this.txtAñoVehiculo.Size = new System.Drawing.Size(267, 44);
             this.txtAñoVehiculo.TabIndex = 15;
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(308, 204);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(411, 251);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(82, 15);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(102, 18);
             this.guna2HtmlLabel2.TabIndex = 16;
             this.guna2HtmlLabel2.Text = "Año del vehiculo";
             // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Column6";
-            this.Column6.Name = "Column6";
-            // 
             // frmProducto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(1058, 490);
+            this.ClientSize = new System.Drawing.Size(1411, 603);
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.txtAñoVehiculo);
             this.Controls.Add(this.pnlBoton);
@@ -454,7 +463,7 @@
             this.Controls.Add(this.Tipo);
             this.Controls.Add(this.lblPrecio);
             this.Controls.Add(this.lblIdProducto);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmProducto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Actualización de vehiculos";

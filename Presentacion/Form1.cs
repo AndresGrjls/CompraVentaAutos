@@ -18,10 +18,5 @@ namespace Presentacion
             InitializeComponent();
             cmbTipo.SelectedIndex = 0;
         }
-
-        private void txtPrecio_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
